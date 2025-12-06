@@ -8,6 +8,7 @@ export default defineConfig(({ mode }) => {
       server: {
         port: 3000,
         host: '0.0.0.0',
+        allowedHosts: ['hospice-guide.onrender.com'], // <--- added this line
       },
       plugins: [react()],
       define: {
@@ -21,3 +22,4 @@ export default defineConfig(({ mode }) => {
       }
     };
 });
+
