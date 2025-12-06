@@ -1,4 +1,4 @@
-import { GoogleGenAI } from "@google/genai";
+/*import { GoogleGenAI } from "@google/genai";
 
 const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
 
@@ -38,4 +38,12 @@ export const generateConversationScript = async (topic: string, relationship: st
     console.error("Gemini API Error:", error);
     return "An error occurred while generating the script. Please try again later.";
   }
+};
+*/
+export const generateConversationScript = async (
+  topic: string,
+  relationship: string,
+  context: string
+): Promise<string> => {
+  return "AI feature unavailable outside AI Studio.";
 };
